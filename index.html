@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flavur</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- <script> 
+        $(function(){
+          $("#header").load("fragments/header.html"); 
+          $("#footer").load("fragments/footer.html"); 
+        });
+    </script>  -->
+
+</head>
+
+<body>
+
+    <!-- HEADER & NAVBAR-->
+    <div id="header">
+
+        <nav>
+            <div class="container">
+                <div class="containerItem" id="logo">
+                    <a href="index.html">flavur</a>
+
+                </div>
+                <div class="containerItem">
+                    <ul class="navLinks">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#postsSection">Blog</a></li>
+                        <li><a href="#subscribeSection">Subscribe</a></li>
+                        <li><a href="#contactSection">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HOME - MAIN IMG -->
+
+        <div class="homeHeader">
+
+            <div class="image"></div>
+            <!-- <img src="https://unsplash.com/photos/8o24C3faLaE/download?force=true&w=1920" alt="mainImage"> -->
+            <div class="highlight">
+                <h1>Welcome to Flavur</h1>
+                <p>Naturally Curious</p>
+            </div>
+
+        </div>
+
+        <!-- POSTS -->
+
+        <section id="postsSection" class="homePosts">
+            <div class="posts">
+                <div class="headerPosts">
+                    <span id="title">
+                        <h1>All Posts</h1>
+                    </span>
+                    <div class="wrap">
+                        <div class="search">
+                           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                           <button type="submit" class="searchButton">
+                             <i class="fa fa-search fa-0.5x"></i>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="postItem">
+                    <div class="postImg">
+                        <img src="https://unsplash.com/photos/dZOWVsVJETo/download?force=true&w=583" alt="organicFood">
+                    </div>
+                    <div class="postContainer">
+                        <div class="postHeader">
+                            <span class="photo">
+                                <img src=""
+                                    alt="profilePhoto">
+                            </span>
+                            <span class="details">
+                                <span class="name">
+                                    Jordyn Smith <i class="fa fa-commenting-o"></i>
+                                </span>
+                                <span class="time">
+                                    May 11 &bullet; 1 min
+                                </span>
+                            </span>
+                        </div>
+                        <div class="postBody">
+                            <h1>12 surprising benefits of growing (and eating) organic</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aliquid! Praesentium
+                                veniam autem expedita...</p>
+                        </div>
+                        <div class="postFooter">
+                            <span class="views"></span>
+                            <span class="comms"></span>
+                            <span class="likeBtn">
+                                <div class="heart"></div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="postItem">
+                    <div class="postImg">
+                        <img src="https://unsplash.com/photos/f7FwHomDgzg/download?force=true&w=582"
+                            alt="healthierList">
+                    </div>
+                    <div class="postContainer">
+                        <div class="postHeader">
+                            <span class="photo">
+                                <img src=""
+                                    alt="profilePhoto">
+                            </span>
+                            <span class="details">
+                                <span class="name">
+                                    Jordyn Smith <i class="fa fa-commenting-o"></i>
+                                </span>
+                                <span class="time">
+                                    May 09 &bullet; 3 min
+                                </span>
+                            </span>
+                        </div>
+                        <div class="postBody">
+                            <h1>The list you’ve been waiting for: healthiest fruits and when to find them</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aliquid! Praesentium
+                                veniam...</p>
+                        </div>
+                        <div class="postFooter">
+                            <span class="views"></span>
+                            <span class="comms"></span>
+                            <span class="likeBtn">
+                                <div class="heart"></div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="postItem">
+                    <div class="postImg">
+                        <img src="https://unsplash.com/photos/Jke5-BaQ_WU/download?force=true&w=582" alt="fallSeason">
+                    </div>
+                    <div class="postContainer">
+                        <div class="postHeader">
+                            <span class="photo">
+                                <img src=""
+                                    alt="profilePhoto">
+                            </span>
+                            <span class="details">
+                                <span class="name">
+                                    Jordyn Smith <i class="fa fa-commenting-o"></i>
+                                </span>
+                                <span class="time">
+                                    May 05 &bullet; 1 min
+                                </span>
+                            </span>
+                        </div>
+                        <div class="postBody">
+                            <h1>Season’s special: best produce to buy fresh this fall</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aliquid! Praesentium
+                                veniam...</p>
+                        </div>
+                        <div class="postFooter">
+                            <span class="views"></span>
+                            <span class="comms"></span>
+                            <span class="likeBtn">
+                                <div class="heart"></div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- UPCOMING EVENTS -->
+
+        <!-- FEW INSTAGRAM PHOTOS -->
+
+        <!-- MUSIC FRAME -->
+
+        <!-- CONTACT -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <div id="footer">
+
+        <div id="subscribeSection"class="footerContainer">
+            <i class="fa fa-envelope-open fa-2x" style="color: #52734D; padding: 10px 0px;"></i>
+            <div class="subscribeForm">
+                <div class="formTitle">Subscribe Form</div>
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    <br />
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+            <div class="socialMedia">
+                <div class="socialItem">
+                    <a target="_blank" href="https://www.facebook.com/PamelaRfOfficial"><i class="fa fa-facebook-f"></i></a>
+                </div>
+                <div class="socialItem">
+                    <a target="_blank" href="https://www.naturally-pam.com/"><i class="fa fa-globe"></i></a>
+                </div>
+                <div class="socialItem">
+                    <a target="_blank" href="https://www.instagram.com/naturally_pam/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+
+</html>

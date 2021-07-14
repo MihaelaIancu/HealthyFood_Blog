@@ -1,0 +1,279 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .postItem {
+        width: 100%;
+        height: 300px;
+    }
+
+    .postImg {
+        width: 50%;
+    }
+
+    .postImg img {
+        width: 100%;
+    }
+
+    .postBody h1 {
+        font-size: 10px;
+        line-height: 20px !important;
+    }
+
+    .postBody p {
+        font-size: 8px;
+    }
+
+    .photo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .name {
+        font-size: 8px;
+        margin: 0 auto;
+    }
+
+    .time {
+        font-size: 6px;
+    }
+
+    .postHeader {
+        justify-content: space-evenly;
+        height: 5%;
+    }
+
+    .details {
+        flex-direction: row;
+        width: 50%;
+        height: 20px;
+    }
+
+    .postContainer {
+        height: 200px;
+    }
+
+    .postFooter {
+        margin-top: 31%;
+    }
+
+    .highlight {
+        height: 25%;
+        width: 50%;
+    }
+
+    .highlight h1 {
+        font-size: 1.4em;
+    }
+
+    .highlight p {
+        font-size: 10px;
+    }
+
+    #aboutTitle {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .postItem {
+        width: 100%;
+        height: 300px;
+    }
+
+    .postImg {
+        width: 50%;
+    }
+
+    .postImg img {
+        width: 100%;
+    }
+
+    .postBody h1 {
+        font-size: 15px;
+        line-height: 30px !important;
+    }
+
+    .postBody p {
+        font-size: 10px;
+    }
+
+    .photo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .name {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+    .time {
+        font-size: 8px;
+    }
+
+    .postHeader {
+        height: 10%;
+    }
+    .postContainer {
+        height: 200px;
+    }
+    .postFooter {
+        margin-top: 31%;
+    }
+
+    .highlight {
+        height: 30%;
+        width: 50%;
+    }
+
+    .highlight h1 {
+        font-size: 1.5em;
+    }
+
+    .highlight p {
+        font-size: 12px;
+    }
+
+    #aboutTitle {
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .postItem {
+        width: 100%;
+    }
+
+    .postImg {
+        width: 50%;
+    }
+
+    .postImg img {
+        width: 582px;
+    }
+
+    .postBody h1 {
+        font-size: 20px;
+        line-height: 40px !important;
+    }
+
+    .postBody p {
+        font-size: 12px;
+    }
+
+    .photo img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .name {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .time {
+        font-size: 10px;
+    }
+
+    .postFooter {
+        margin-top: 20px;
+    }
+
+    .postContainer {
+        height: 388px;
+    }
+
+    .postItem {
+        height: 390px;
+    }
+
+    .highlight {
+        height: 40%;
+        width: 50%;
+    }
+
+    .highlight h1 {
+        font-size: 1.9em;
+    }
+
+    .highlight p {
+        font-size: 15px;
+    }
+
+    #aboutTitle {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .postItem {
+        width: 980px;
+    }
+
+    .postImg {
+        width: 50%;
+    }
+
+    .postImg img {
+        width: 582px;
+    }
+
+    .postBody h1 {
+        font-size: 25px;
+        line-height: 40px !important;
+    }
+
+    .postBody p {
+        font-size: 15px;
+    }
+
+    .photo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .name {
+        font-size: 15px;
+        margin: 15px auto 0px auto;
+    }
+
+    .time {
+        font-size: 12px;
+    }
+
+    .postFooter {
+        margin-top: 20px;
+    }
+
+    .postContainer {
+        height: 388px;
+    }
+
+    .postItem {
+        height: 390px;
+    }
+
+    .highlight {
+        height: 50%;
+        width: 45%;
+    }
+
+    .highlight h1 {
+        font-size: 2em;
+    }
+
+    .highlight p {
+        font-size: 20px;
+    }
+
+    #aboutTitle {
+        font-size: 25px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
